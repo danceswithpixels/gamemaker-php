@@ -1,1 +1,4 @@
-<?php echo time(); ?>
+<?php 
+$time = microtime(true);
+echo $time; 
+?>
